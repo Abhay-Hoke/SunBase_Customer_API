@@ -1,0 +1,124 @@
+@charset "ISO-8859-1";
+
+.header { 
+	display: flex;
+	justify-content: space-between;
+	align-items: center; 
+	padding: 15px 30px; 
+	background-color: #333; 
+	color: #fff; 
+	font-family: Arial, sans-serif; 
+	} 
+	
+/* Styling for the search form */
+
+.search-form {
+	display: flex; 
+	align-items: center; 
+	} 
+	
+	
+.dropdown, .search-box { 
+	padding: 10px; 
+	margin-right: 10px; 
+	border: 1px solid #ccc; 
+	border-radius: 5px; 
+	font-size: 16px; 
+	} 
+	
+	
+ /* Styling for buttons */
+ 
+  
+.btn {
+	padding: 10px 20px;
+	border: none; 
+	border-radius: 5px;
+	cursor: pointer; 
+	font-size: 16px; 
+	transition: background-color 0.3s; 
+	}
+	
+	 
+.btn-primary { 
+	background-color: #007bff; 
+	color: #fff; 
+	}
+	
+.btn-primary:hover { 
+	background-color: #0056b3; 
+	} 
+
+
+.btn-secondary { 
+	background-color: #6c757d; 
+	color: #fff; 
+	} 
+	
+.btn-secondary:hover { 
+	background-color: #5a6268; 
+	} 
+
+
+.btn-success { 
+	background-color: #28a745; 
+	color: #fff; 
+	text-decoration:none;
+	}
+	 
+.btn-success:hover { 
+	background-color: #218838; 
+	}
+	
+	.btn-danger { 
+	background-color: #dc3545;
+	text-decoration:none; 
+	} 
+	
+.btn-danger:hover { 
+	background-color: #c82333; 
+	}
+	
+
+
+
+ /* Styling for the login/logout links */
+
+
+/* Styling for the login/logout links as buttons */ 
+
+/*.login-btn, .logout-btn {
+	color: #fff; 
+	text-decoration: none; 
+	padding: 10px 15px; 
+	border-radius: 5px; 
+	transition: background-color 0.3s; 
+	}
+
+
+.login-btn:hover, .logout-btn:hover { 
+	background-color: #444; 
+	}
+  */  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

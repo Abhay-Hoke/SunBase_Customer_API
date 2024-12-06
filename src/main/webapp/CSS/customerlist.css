@@ -1,0 +1,212 @@
+/*@charset "ISO-8859-1";
+
+
+
+body { 
+	font-family: Arial, sans-serif; 
+	margin: 0; 
+	padding: 0; 
+	background-color: #f4f4f4; 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+	}
+	
+	 
+
+h2 { 
+	color: #333; 
+	text-align: center; 
+	margin-top: 20px; 
+	} 
+	
+
+table { 
+	width: 80%; 
+	margin: 20px auto; 
+	border-collapse: collapse; 
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); 
+	} 
+	
+	
+thead { 
+	background-color: #333; 
+	color: #fff; 
+	}
+	 
+th, td { 
+	padding: 12px 15px; 
+	border: 1px solid #ddd; 
+	text-align: center; 
+	} 
+	
+	
+tbody tr:nth-child(even) { 
+	background-color: #f9f9f9; 
+	}
+	 
+tbody tr:hover { 
+	background-color: #f1f1f1; 
+	}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #666;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ddd;
+}
+*/
+@charset "ISO-8859-1";
+
+/* General styling for the body */
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #f4f4f4; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Styling for headers */
+h2 { 
+    color: #333; 
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+/* Styling for the header */
+.header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%; /* Ensure the header spans the full width of the page */
+    padding: 15px 30px; 
+    background-color: #333; 
+    color: #fff; 
+    font-family: Arial, sans-serif; 
+}
+
+/* Styling for the search form */
+.search-form {
+    display: flex; 
+    align-items: center; 
+}
+
+.dropdown, .search-box { 
+    padding: 10px; 
+    margin-right: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+}
+
+/* Styling for buttons */
+.btn {
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+}
+    
+.btn-primary { 
+    background-color: #007bff; 
+    color: #fff; 
+}
+    
+.btn-primary:hover { 
+    background-color: #0056b3; 
+} 
+
+.btn-secondary { 
+    background-color: #6c757d; 
+    color: #fff; 
+} 
+    
+.btn-secondary:hover { 
+    background-color: #5a6268; 
+} 
+
+.btn-success { 
+    background-color: #28a745; 
+    color: #fff; 
+}
+     
+.btn-success:hover { 
+    background-color: #218838; 
+}
+
+/* Styling for the login/logout links as buttons */ 
+.login-btn, .logout-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Primary button color */
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover, .logout-btn:hover {
+    background-color: #0056b3; /* Hover color */
+}
+
+/* Styling for the table */
+table { 
+    width: 80%; 
+    margin: 20px auto; 
+    border-collapse: collapse; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); 
+}
+
+thead { 
+    background-color: #333; 
+    color: #fff; 
+}
+
+th, td { 
+    padding: 12px 15px; 
+    border: 1px solid #ddd; 
+    text-align: center; 
+}
+
+tbody tr:nth-child(even) { 
+    background-color: #f9f9f9; 
+}
+    
+tbody tr:hover { 
+    background-color: #f1f1f1; 
+}
+
+/* Footer styling */
+footer {
+ 
+ position:fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #666;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ddd;
+    z-index: 100; /* Ensure the footer stays on top */
+    box-sizing: border-box;
+}
+
+
+

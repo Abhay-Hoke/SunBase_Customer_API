@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+
+h2 {
+	color: #333;
+	text-align: center;
+	margin: 20px;
+} /* Styling for the form */
+form#103 {
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+	gap:20px;
+}
+
+.form-group {
+margin:auto;
+	width:40%;
+	display:flex;
+	
+	
+	margin-bottom:5px;
+	
+	
+}
+
+label {
+	margin:auto;
+	color: #333;
+	margin-bottom: 5px;
+}
+
+.input {
+	width: 40%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+} /* Styling for the buttons */
+
+
+ /* Footer styling */
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding: 15px;
+	font-size: 0.9em;
+	color: #666;
+	background-color: #f1f1f1;
+	border-top: 1px solid #ddd;
+	z-index: 100; /* Ensure the footer stays on top */
+	box-sizing: border-box;
+}

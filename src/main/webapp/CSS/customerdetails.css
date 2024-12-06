@@ -1,0 +1,51 @@
+
+
+@charset "ISO-8859-1";
+
+
+#101{
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+	
+	
+	gap: 20px;
+}
+
+.form-group {
+	width:40%;
+	margin:auto;
+	display: flex;
+	
+}
+
+
+.input{
+	width: 60%;
+	margin-inline-end:0;
+	margin:15px;
+	padding:10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+
+
+
+footer {
+  position:fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #666;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ddd;
+    z-index: 100; /* Ensure the footer stays on top */
+    box-sizing: border-box;
+}
+
+
